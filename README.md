@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/dy2nlra4emaj0r0e?svg=true)](https://ci.appveyor.com/project/KateGaw/ra-router-crud)
+[![Build status](https://ci.appveyor.com/api/projects/status/sr5c5mol90ww52x2?svg=true)](https://ci.appveyor.com/project/KateGaw/ra-router-crud-xsdn9)
 
 https://kategaw.github.io/RA_router_crud/
 
