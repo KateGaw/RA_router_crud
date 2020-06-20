@@ -16,6 +16,7 @@ const PostPage = (props) => {
         setPost(response.data);
         setIsLoading(false);
       });
+    // eslint-disable-next-line
   }, []);
 
   const handleDelete = () => {

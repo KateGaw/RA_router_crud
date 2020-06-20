@@ -14,6 +14,7 @@ const NewPostPage = (props) => {
         setPostContent(response.data.content);
       });
     }
+    // eslint-disable-next-line
   }, []);
 
   const handleClose = () => {
@@ -69,7 +70,11 @@ const NewPostPage = (props) => {
 
   return (
     <form onSubmit={handleSubmit} className="new_post">
-      <textarea value={postContent} onChange={handleChange} className='textarea' />
+      <textarea
+        value={postContent}
+        onChange={handleChange}
+        className="textarea"
+      />
       <div className="newpost_actions">
         <button className="button save_button">Save</button>
         <button
