@@ -1,0 +1,94 @@
+*,
+*:focus,
+*:hover,
+*:active:focus {
+    outline: none;
+}
+
+.window {
+    border: 1px solid;
+    border-radius: 10px;
+    width: 550px;
+    margin: 3% auto;
+}
+
+.button {
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    background-color: white;
+}
+
+.button:hover {
+    background-color: #e7dff1;
+}
+
+.post {
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.post a {
+    text-decoration: none;
+    color: black;
+}
+
+.post_date {
+    float: right;
+}
+
+.post_text {
+    padding: 20px 0 0;
+}
+
+.err_page {
+    padding: 20px;
+}
+
+.new_post {
+    margin: auto;
+    width: 98%;
+    position: relative;
+}
+
+.textarea {
+    width: 95%;
+    height: 190px;
+    margin: 20px 10px 10px;
+    padding: 5px;
+    resize: none;
+}
+
+.newpost_actions {
+    float: right;
+    width: 150px;
+}
+
+.save_button {
+    width: 130px;
+}
+
+.close_button {
+    position: absolute;
+    top: -12%;
+    left: 96%;
+    background-color: white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.posts {
+    padding: 15px;
+}
+
+.post_actions {
+    float: right;
+}
